@@ -1,0 +1,1198 @@
+{
+  "branches": [
+    {
+      "id": 1,
+      "name": "Branch 1 (Bole)",
+      "location": "Bole Road near Millennium Hall, Addis Ababa",
+      "phone": "+251 91 123 4567",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Branch 2 (Kazanchis)",
+      "location": "Kazanchis Commercial Center, Addis Ababa",
+      "phone": "+251 91 234 5678",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "Branch 3 (Sarbet)",
+      "location": "Sarbet near Pushkin Square, Addis Ababa",
+      "phone": "+251 91 345 6789",
+      "status": "Active"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "All",
+      "icon": "Utensils",
+      "description": "All menu items"
+    },
+    {
+      "id": 2,
+      "name": "Pizza",
+      "icon": "Pizza",
+      "description": "Hot & cheesy fresh baked pizzas"
+    },
+    {
+      "id": 3,
+      "name": "JUICES",
+      "icon": "CupSoda",
+      "description": "Freshly squeezed natural juices & smoothies"
+    },
+    {
+      "id": 4,
+      "name": "BURGER",
+      "icon": "Hamburger",
+      "description": "Flame grilled beef & chicken burgers"
+    },
+    {
+      "id": 5,
+      "name": "SANDWICHES",
+      "icon": "Sandwich",
+      "description": "Toasted gourmet sandwiches"
+    },
+    {
+      "id": 6,
+      "name": "SHAWARMA",
+      "icon": "UtensilsCrossed",
+      "description": "Middle Eastern style rolls & shawarma"
+    },
+    {
+      "id": 7,
+      "name": "WOW CRISPY",
+      "icon": "Flame",
+      "description": "Crispy fried chicken & wings"
+    },
+    {
+      "id": 8,
+      "name": "COLD DRINKS",
+      "icon": "CupSoda",
+      "description": "Ice cold soft drinks & beverages"
+    },
+    {
+      "id": 9,
+      "name": "HOT DRINKS",
+      "icon": "Coffee",
+      "description": "Ethiopian coffee & tea"
+    },
+    {
+      "id": 10,
+      "name": "WRAPS + SANDWICHES",
+      "icon": "Wrap",
+      "description": "Special stuffed wraps"
+    },
+    {
+      "id": 11,
+      "name": "SALAD",
+      "icon": "Salad",
+      "description": "Fresh healthy salads"
+    },
+    {
+      "id": 12,
+      "name": "Fasting Burgers",
+      "icon": "Leaf",
+      "description": "100% vegetarian fasting specials"
+    },
+    {
+      "id": 13,
+      "name": "Extra",
+      "icon": "Plus",
+      "description": "Extra cheese, sauces & toppings"
+    },
+    {
+      "id": 14,
+      "name": "Special Fries",
+      "icon": "Utensils",
+      "description": "Loaded cheesy fries & sides"
+    },
+    {
+      "id": 15,
+      "icon": "Utensils",
+      "description": ""
+    }
+  ],
+  "foods": [
+    {
+      "id": 101,
+      "name": "WOW SPECIAL PIZZA",
+      "categoryId": 2,
+      "price": 781.74,
+      "description": "Signature WOW Special Pizza loaded with beef salami, chicken, black olives, mozzarella, bell peppers.",
+      "ingredients": "Beef salami, diced chicken, black olives, mozzarella cheese, bell peppers, oregano tomato sauce",
+      "image": "/images/Piza.jpg",
+      "isPopular": true
+    },
+    {
+      "id": 102,
+      "name": "GYM PROTIEN",
+      "categoryId": 3,
+      "price": 339.14,
+      "description": "High-protein blend of organic Greek yogurt, berries, peanut butter, chia seeds.",
+      "ingredients": "Greek yogurt, mixed berries, peanut butter, chia seeds, whey protein",
+      "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 103,
+      "name": "GYM PROTIEN FASTING",
+      "categoryId": 3,
+      "price": 326,
+      "description": "100% plant-based protein shake made with strawberry, banana, almond milk.",
+      "ingredients": "Strawberries, banana, almond milk, plant pea protein, flaxseeds",
+      "image": "https://images.unsplash.com/photo-1502741224143-90386d7f8c82?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 104,
+      "name": "PAIN RELIEF",
+      "categoryId": 3,
+      "price": 278.27,
+      "description": "Anti-inflammatory wellness juice with ginger, turmeric, green apple, celery.",
+      "ingredients": "Fresh ginger, raw turmeric, green apple, celery, lemon juice",
+      "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 105,
+      "name": "KIDNEY FLASH",
+      "categoryId": 3,
+      "price": 278.27,
+      "description": "Freshly squeezed beetroot, pomegranate, and apple juice.",
+      "ingredients": "Organic beetroot, pomegranate, red apple, lime",
+      "image": "/images/kidneyflash.jpg",
+      "isPopular": true
+    },
+    {
+      "id": 106,
+      "name": "SUPER SPECIAL 1",
+      "categoryId": 3,
+      "price": 339.14,
+      "description": "Special fruit blend smoothie with avocado, papaya, and mango layers.",
+      "ingredients": "Fresh avocado, papaya, mango pulp, honey drizzle",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWFvVcpYBZFvf5rmCPxa2JizfzaGEC-XfYVHSNj2aK94AcikkB",
+      "isPopular": false
+    },
+    {
+      "id": 107,
+      "name": "DELUX/ዴሉክስ",
+      "categoryId": 4,
+      "price": 694.79,
+      "description": "Gourmet deluxe double beef burger with melted cheese and fresh toppings.",
+      "ingredients": "Double beef patty, cheddar cheese, caramelized onions, crisp lettuce, tomato, WOW sauce",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 108,
+      "name": "SUPER SPECIAL 2",
+      "categoryId": 3,
+      "price": 339.14,
+      "description": "Tropical fruit blend juice with passionfruit, guava, and orange.",
+      "ingredients": "Passionfruit, guava, orange juice, crushed ice",
+      "image": "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 109,
+      "name": "SUPER SPECIAL 3",
+      "categoryId": 3,
+      "price": 339.14,
+      "description": "Berry explosion smoothie with blueberries, raspberries, and honey.",
+      "ingredients": "Blueberries, raspberries, strawberries, organic honey",
+      "image": "/images/SuperSpecial 3.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 110,
+      "name": "CREAMY AVOCADO",
+      "categoryId": 3,
+      "price": 321.74,
+      "description": "Rich creamy Ethiopian avocado juice drizzled with vimto syrup.",
+      "ingredients": "Fresh Ethiopian avocado, milk, sugar syrup, Vimto berry drizzle",
+      "image": "https://plus.unsplash.com/premium_photo-1726852751642-3d22698c66f2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Q3JlYW15JTIwQXZvY2FkbyUyMGp1aWNlfGVufDB8fDB8fHww",
+      "isPopular": true
+    },
+    {
+      "id": 111,
+      "name": "CREAMY MANGO",
+      "categoryId": 3,
+      "price": 339.14,
+      "description": "Thick sweet ripe mango juice.",
+      "ingredients": "Ripe Alphonso mango pulp, ice, milk",
+      "image": "https://images.unsplash.com/photo-1697642452436-9c40773cbcbb?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "isPopular": true
+    },
+    {
+      "id": 112,
+      "name": "CREAMY PAPAYA",
+      "categoryId": 3,
+      "price": 321.74,
+      "description": "Freshly blended creamy papaya smoothie.",
+      "ingredients": "Fresh red papaya, condensed milk",
+      "image": "/images/Creamy papaya.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 113,
+      "name": "FOR LADIES",
+      "categoryId": 3,
+      "price": 278.27,
+      "description": "Special antioxidant strawberry and pomegranate blend.",
+      "ingredients": "Strawberry puree, pomegranate, collagen boost, honey",
+      "image": "/images/ladys juice.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 114,
+      "name": "FOR MEN",
+      "categoryId": 3,
+      "price": 278.27,
+      "description": "Energy boost smoothie with banana, dates, and oats.",
+      "ingredients": "Banana, dates, whole oats, peanut butter, almond milk",
+      "image": "/images/Men juice.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 115,
+      "name": "BANANA FLAX",
+      "categoryId": 3,
+      "price": 275.27,
+      "description": "Banana shake enriched with grounded flaxseed.",
+      "ingredients": "Fresh banana, flaxseed powder, cold milk",
+      "image": "/images/Banana Flax .jpg",
+      "isPopular": false
+    },
+    {
+      "id": 116,
+      "name": "MULTI VITAMIN",
+      "categoryId": 3,
+      "price": 321.74,
+      "description": "Multi-fruit vitamin juice with carrot, orange, and apple.",
+      "ingredients": "Flax Beso Banana Honey Orange Pinappel Carrot",
+      "image": "/images/Multivitamin.jpg",
+      "isPopular": true
+    },
+    {
+      "id": 117,
+      "name": "MIXED SALAD",
+      "categoryId": 11,
+      "price": 513.05,
+      "description": "Fresh mixed garden vegetables with olive oil vinaigrette dressing.",
+      "ingredients": "Lettuce, cucumber, tomatoes, sweetcorn, olive oil vinaigrette",
+      "image": "https://images.unsplash.com/photo-1607532941433-304659e8198a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWl4ZWQlMjBzYWxhZHxlbnwwfHwwfHx8MA%3D%3D",
+      "isPopular": false
+    },
+    {
+      "id": 118,
+      "name": "BEEF SESAME SALAD",
+      "categoryId": 11,
+      "price": 643.48,
+      "description": "Seared beef strips over crisp greens with sesame ginger dressing.",
+      "ingredients": "Seared beef fillet strips, roasted sesame seeds, mixed greens, soy ginger glaze",
+      "image": "https://images.unsplash.com/photo-1696824818313-1a1563281d22?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QmVlZiUyMHNlc2FtZSUyMHNhbGFkfGVufDB8fDB8fHww",
+      "isPopular": true
+    },
+    {
+      "id": 119,
+      "name": "TUNA SALAD",
+      "categoryId": 11,
+      "price": 686.96,
+      "description": "Flaked tuna fish with sweetcorn, lettuce, and mayo dressing.",
+      "ingredients": "Flaked white tuna, sweetcorn, crisp lettuce, light mayonnaise",
+      "image": "https://images.unsplash.com/photo-1651978595428-b79169f223a5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHR1bmElMjBzYWxhZHxlbnwwfHwwfHx8MA%3D%3D",
+      "isPopular": false
+    },
+    {
+      "id": 120,
+      "name": "CHICKEN KETO SALAD",
+      "categoryId": 11,
+      "price": 686.96,
+      "description": "Grilled chicken breast, avocado, boiled egg, and greens.",
+      "ingredients": "Grilled chicken breast fillet, sliced avocado, hardboiled egg, olive oil",
+      "image": "https://media.istockphoto.com/id/1482543117/photo/chicken-breast-grilled-and-fresh-vegetable-salad.webp?a=1&b=1&s=612x612&w=0&k=20&c=XzIlkBytfiCViUkXN2Ai8GziSxTFNjcmPy8ENk8ELtk=",
+      "isPopular": true
+    },
+    {
+      "id": 121,
+      "name": "PUMPKIN AVOCADO SALAD",
+      "categoryId": 11,
+      "price": 513.05,
+      "description": "Roasted pumpkin cubes, sliced avocado, and pumpkin seeds.",
+      "ingredients": "Roasted pumpkin, fresh avocado, toasted pumpkin seeds, spinach",
+      "image": "https://images.unsplash.com/photo-1729711549750-9d868183af87?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFB1bXBraW4lMjBBdm9jYWRvJTIwc2FsYWR8ZW58MHx8MHx8fDA%3D",
+      "isPopular": false
+    },
+    {
+      "id": 122,
+      "name": "MEDITERRANEAN SALAD",
+      "categoryId": 11,
+      "price": 513.05,
+      "description": "Cucumbers, cherry tomatoes, olives, feta cheese, and herbs.",
+      "ingredients": "Cucumbers, cherry tomatoes, Kalamata olives, feta cheese, oregano olive oil",
+      "image": "https://images.unsplash.com/photo-1608032077018-c9aad9565d29?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TUVESVRFUlJBTkVBTiUyMFNBTEFEfGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 123,
+      "name": "GRILL VEG. SALAD",
+      "categoryId": 11,
+      "price": 513.05,
+      "description": "Grilled bell peppers, zucchini, eggplant over crisp greens.",
+      "ingredients": "Grilled zucchini, eggplant, bell peppers, balsamic glaze",
+      "image": "https://images.unsplash.com/photo-1670237735381-ac5c7fa72c51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEdSSUxMJTIwVkVHLiUyMFNBTEFEfGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 124,
+      "name": "READ BEAN BURGER",
+      "categoryId": 4,
+      "price": 390.44,
+      "description": "Red kidney bean veggie patty with crisp lettuce and tomato.",
+      "ingredients": "Red kidney bean patty, lettuce, tomato, vegan mayo, wheat bun",
+      "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 125,
+      "name": "VEGAN BURGER",
+      "categoryId": 4,
+      "price": 346.96,
+      "description": "Plant-based vegan burger patty with vegan mayo.",
+      "ingredients": "Plant-based patty, vegan cheddar cheese, lettuce, tomato, pickles",
+      "image": "https://images.unsplash.com/photo-1685633224810-bd23d2b0c699?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHZlZ2FuJTIwYnVyZ2VyfGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 126,
+      "name": "CHEESY DELIGHT",
+      "categoryId": 4,
+      "price": 520.87,
+      "description": "Beef burger stuffed with melted cheese center.",
+      "ingredients": "Beef patty stuffed with mozzarella and cheddar, pickles, WOW sauce",
+      "image": "/images/CheesyDelight burger.jpg",
+      "isPopular": true
+    },
+    {
+      "id": 127,
+      "name": "BEEF SUPREME",
+      "categoryId": 4,
+      "price": 460,
+      "description": "Supreme beef patty with caramelized onions and sauce.",
+      "ingredients": "100% pure beef patty, caramelized onions, smoked cheese, mustard mayo",
+      "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 128,
+      "name": "WOW SPECIAL BURGER",
+      "categoryId": 4,
+      "price": 738.27,
+      "description": "Signature WOW Special Burger with double beef, egg, cheese, and special sauce.",
+      "ingredients": "Double beef patties, fried egg, double cheese, beef bacon, signature WOW sauce",
+      "image": "/images/Wowspecial burger.jpg",
+      "isPopular": true
+    },
+    {
+      "id": 129,
+      "name": "WOW DOUBLE BURGER",
+      "categoryId": 4,
+      "price": 668.7,
+      "description": "Double beef patties stacked with double cheddar cheese.",
+      "ingredients": "Double 100g beef patties, double cheddar cheese, lettuce, pickles",
+      "image": "/images/Wowdouble burger.jpg",
+      "isPopular": true
+    },
+    {
+      "id": 130,
+      "name": "CHEESE BURGER",
+      "categoryId": 4,
+      "price": 520.87,
+      "description": "Classic beef cheeseburger with pickles and ketchup.",
+      "ingredients": "Beef patty, melted cheddar slice, pickles, onion, ketchup, brioche bun",
+      "image": "https://images.unsplash.com/photo-1607013251379-e6eecfffe234?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q0hFRVNFJTIwQlVSR0VSfGVufDB8fDB8fHww",
+      "isPopular": true
+    },
+    {
+      "id": 131,
+      "name": "BEEF BURGER",
+      "categoryId": 4,
+      "price": 433.92,
+      "description": "Flame-grilled beef burger patty on sesame bun.",
+      "ingredients": "Flame grilled beef patty, lettuce, tomato, sesame bun",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 132,
+      "name": "MINI SPECIAL BURGER",
+      "categoryId": 4,
+      "price": 607.83,
+      "description": "Mini slider burgers loaded with special toppings.",
+      "ingredients": "3 mini slider beef patties, cheese, WOW special sauce",
+      "image": "https://images.unsplash.com/photo-1610614991969-ceeb293e7ff5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fE1pbmklMjBzcGVjaWFsJTIwQlVSR0VSfGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 133,
+      "name": "MINI BURGER",
+      "categoryId": 4,
+      "price": 390.44,
+      "description": "Single mini beef slider burger.",
+      "image": "https://images.unsplash.com/photo-1651993841930-946a700c1524?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE1pbmklMjBzcGVjaWFsJTIwQlVSR0VSfGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 134,
+      "name": "CHICKEN SPECIAL BURGER",
+      "categoryId": 4,
+      "price": 738.27,
+      "description": "Crispy chicken fillet with cheese, bacon, and special garlic sauce.",
+      "image": "https://media.istockphoto.com/id/1471844577/photo/delicious-double-burger-with-french-fries-and-vegetables-on-wooden-cutting-board.webp?a=1&b=1&s=612x612&w=0&k=20&c=AQf89aZeq5GYS7owfkbQSasswh1_AnrQdPsXsqcmgVs=",
+      "isPopular": true
+    },
+    {
+      "id": 135,
+      "name": "CHICKEN BURGER",
+      "categoryId": 4,
+      "price": 625.22,
+      "description": "Flame-grilled chicken burger with mayo and lettuce.",
+      "image": "https://plus.unsplash.com/premium_photo-1695762436978-070e000dff53?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hpa2VuJTIwQlVSR0VSfGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 136,
+      "name": "KATCHUP",
+      "categoryId": 13,
+      "price": 77.4,
+      "description": "Extra tomato ketchup dip packet.",
+      "image": "/images/Katchup.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 137,
+      "name": "MAYONNAISE",
+      "categoryId": 13,
+      "price": 77.4,
+      "description": "Extra mayo sauce dip.",
+      "image": "https://media.istockphoto.com/id/663515208/photo/homemade-mayonnaise-mayo-in-a-wooden-bowl-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=Z6a-Zv5qpKfcld3-N036xZ0vFgPLP9bNrMGSIRyX-Fk=",
+      "isPopular": false
+    },
+    {
+      "id": 138,
+      "name": "TAKEAWAY BOX",
+      "categoryId": 13,
+      "price": 25.22,
+      "description": "Packaging takeaway box.",
+      "image": "https://media.istockphoto.com/id/1250589910/photo/mockup-food-takeaway-packaging.webp?a=1&b=1&s=612x612&w=0&k=20&c=UVBFW63ctgmKiesRamrdKRBQ51LJzgyP8h9QDXST5NE=",
+      "isPopular": false
+    },
+    {
+      "id": 139,
+      "name": "SLICE OF CHEESE",
+      "categoryId": 13,
+      "price": 77.4,
+      "description": "Extra slice of melted cheddar cheese.",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 140,
+      "name": "CHICKEN WRAP BIG",
+      "categoryId": 10,
+      "price": 868.7,
+      "description": "Large tortilla wrap stuffed with grilled chicken, garlic sauce, fries, and lettuce.",
+      "ingredients": "Grilled chicken strips, french fries, garlic toum sauce, pickles, tortilla wrap",
+      "image": "https://plus.unsplash.com/premium_photo-1679287668420-80c27ea4fb31?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMHdyYXAlMjBiaWd8ZW58MHx8MHx8fDA%3D",
+      "isPopular": true
+    },
+    {
+      "id": 141,
+      "name": "CHICKEN WRAP MEDIUM",
+      "categoryId": 10,
+      "price": 651.31,
+      "description": "Medium chicken pita wrap with garlic sauce.",
+      "image": "https://images.unsplash.com/photo-1666493243529-b3b81e7e0a1b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNoaWNrZW4lMjB3cmFwJTIwTWVkaXVtfGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 142,
+      "name": "FISH WRAP",
+      "categoryId": 10,
+      "price": 503.48,
+      "description": "Crispy fried fish fillet wrap with tartar sauce.",
+      "image": "https://images.unsplash.com/photo-1563282397-db1ac3a6bf86?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RmlzaCUyMHdyYXB8ZW58MHx8MHx8fDA%3D",
+      "isPopular": false
+    },
+    {
+      "id": 143,
+      "name": "TUNA WRAP BIG",
+      "categoryId": 10,
+      "price": 738.27,
+      "description": "Big tuna wrap with sweetcorn and veggies.",
+      "image": "https://images.unsplash.com/photo-1676300186691-39edceddd705?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8VHVuYSUyMHdyYXAlMjBiaWd8ZW58MHx8MHx8fDA%3D",
+      "isPopular": false
+    },
+    {
+      "id": 144,
+      "name": "TUNA WRAP MEDIUM",
+      "categoryId": 10,
+      "price": 607.83,
+      "description": "Medium tuna wrap.",
+      "image": "https://media.istockphoto.com/id/1500120977/photo/burritos-wraps-with-beef-and-vegetables-on-black-background-beef-burrito-mexican-food.webp?a=1&b=1&s=612x612&w=0&k=20&c=y4X4yEF19G9Y4p7gMURjAHXvDKTqCULHeUneaZE43Z8=",
+      "isPopular": false
+    },
+    {
+      "id": 145,
+      "name": "VEGETABLE WRAP",
+      "categoryId": 10,
+      "price": 477.4,
+      "description": "Grilled vegetable wrap with tahini.",
+      "image": "https://plus.unsplash.com/premium_photo-1700677185925-81d4d3edc860?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8VmVnZXRhYmxlJTIwd3JhcHxlbnwwfHwwfHx8MA%3D%3D",
+      "isPopular": false
+    },
+    {
+      "id": 147,
+      "name": "CHICKEN SANDWICH",
+      "categoryId": 5,
+      "price": 520.87,
+      "description": "Toasted chicken sandwich with mayo.",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 148,
+      "name": "EGG SANDWICH",
+      "categoryId": 5,
+      "price": 346.96,
+      "description": "Fried egg sandwich on toasted bread.",
+      "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RWdnJTIwc2FuZHdpdGNofGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 149,
+      "name": "CHEESE SANDWICH",
+      "categoryId": 5,
+      "price": 346.96,
+      "description": "Melted cheese sandwich.",
+      "image": "https://plus.unsplash.com/premium_photo-1739906393226-9978e7943b00?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2hlZXNlJTIwc2FuZHdpdGNofGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 150,
+      "name": "HAM & CHEESE SANDWICH",
+      "categoryId": 5,
+      "price": 407.83,
+      "description": "Beef ham and cheese toasted sandwich.",
+      "image": "https://media.istockphoto.com/id/155385576/photo/sliced-panini-sandwich-on-wood-surface.webp?a=1&b=1&s=612x612&w=0&k=20&c=RzPxSgMepmgSuHCeAZF_vJRw_rPsogSbld7t6MjfI6A=",
+      "isPopular": false
+    },
+    {
+      "id": 151,
+      "name": "FISH SANDWICH",
+      "categoryId": 5,
+      "price": 433.92,
+      "description": "Crispy fish sandwich with tartar sauce.",
+      "image": "https://images.unsplash.com/photo-1709689155464-90d6ca1e9f62?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEZpc2glMjBzYW5kd2l0Y2h8ZW58MHx8MHx8fDA%3D",
+      "isPopular": false
+    },
+    {
+      "id": 152,
+      "name": "TUNA SANDWICH",
+      "categoryId": 5,
+      "price": 503.48,
+      "description": "Tuna mayo toasted sandwich.",
+      "image": "https://images.unsplash.com/photo-1785064138041-19295508d398?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFR1bmElMjBzYW5kd2l0Y2h8ZW58MHx8MHx8fDA%3D",
+      "isPopular": false
+    },
+    {
+      "id": 153,
+      "name": "VEGETABLE SANDWICH",
+      "categoryId": 5,
+      "price": 346.96,
+      "description": "Fresh vegetable sandwich.",
+      "image": "https://images.unsplash.com/photo-1592415486689-125cbbfcbee2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8VmVnZXRhYmxlJTIwc2FuZHdpdGNofGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 154,
+      "name": "FRENCH FRIES",
+      "categoryId": 14,
+      "price": 346.96,
+      "description": "Golden crispy french fries.",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 155,
+      "name": "CHEESY FRIES BIG",
+      "categoryId": 14,
+      "price": 346.96,
+      "description": "Large portion fries smothered in cheddar cheese sauce.",
+      "image": "https://images.unsplash.com/photo-1609530127564-bee93ebe1c9e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hlZXN5JTIwZnJpZXMlMjBiaWd8ZW58MHx8MHx8fDA%3D",
+      "isPopular": true
+    },
+    {
+      "id": 156,
+      "name": "CHEESY FRIES SMALL",
+      "categoryId": 14,
+      "price": 173.05,
+      "description": "Small portion cheesy fries.",
+      "image": "https://media.istockphoto.com/id/1265068815/photo/loaded-bacon-ranch-fries.webp?a=1&b=1&s=612x612&w=0&k=20&c=iqtoC1XMor-f1l5B06UcmmjoJ-olvrVEUH3gReTXgC8=",
+      "isPopular": false
+    },
+    {
+      "id": 157,
+      "name": "CHILI FRIES BIG",
+      "categoryId": 14,
+      "price": 346.96,
+      "description": "Spicy chili seasoned fries large.",
+      "image": "https://images.unsplash.com/photo-1582254466181-fe6a5b9e4e01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNoaWxpJTIwZnJpZXMlMjBiaWd8ZW58MHx8MHx8fDA%3D",
+      "isPopular": false
+    },
+    {
+      "id": 158,
+      "name": "CHILI FRIES SMALL",
+      "categoryId": 14,
+      "price": 173.05,
+      "description": "Small portion chili fries.",
+      "image": "https://images.unsplash.com/photo-1639744091981-2f826321fae6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpbGklMjBmcmllcyUyMHNtYWxsfGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 159,
+      "name": "CHICKEN LOADED FRIES SMALL",
+      "categoryId": 14,
+      "price": 216.53,
+      "description": "Fries topped with chicken chunks and cheese.",
+      "image": "https://media.istockphoto.com/id/2257512826/photo/take-out-food-fried-breaded-chicken-nuggets-with-french-fries-on-wooden-table.webp?a=1&b=1&s=612x612&w=0&k=20&c=IdCudmb4iQtm-cpyz24OGzLsgPTuMr2vEmxFvdpKeWk=",
+      "isPopular": true
+    },
+    {
+      "id": 160,
+      "name": "CHICKEN LOADED FRIES BIG",
+      "categoryId": 14,
+      "price": 433.92,
+      "description": "Large loaded chicken fries with cheese and sauce.",
+      "image": "https://images.unsplash.com/photo-1678007699389-2096665fd9c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fENISUNLRU4lMjBMT0FERUQlMjBGUklFUyUyMGJpZ3xlbnwwfHwwfHx8MA%3D%3D",
+      "isPopular": true
+    },
+    {
+      "id": 161,
+      "name": "CHICKEN TENDER (4 PCS)",
+      "categoryId": 7,
+      "price": 607.83,
+      "description": "4 pieces crispy chicken tenders.",
+      "image": "/images/chickentender 4pcs.jpg",
+      "isPopular": true
+    },
+    {
+      "id": 162,
+      "name": "CHICKEN TENDER (6 PCS)",
+      "categoryId": 7,
+      "price": 694.79,
+      "description": "6 pieces crispy chicken tenders.",
+      "image": "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 163,
+      "name": "CHICKEN HOT FULL WINGS (3 PCS)",
+      "categoryId": 7,
+      "price": 607.83,
+      "description": "3 pieces spicy hot wings.",
+      "image": "https://images.unsplash.com/photo-1619019187211-adf2f6119afd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Q0hJQ0tFTiUyMEhPVCUyMEZVTEwlMjBXSU5HUyUyMCgzJTIwUENTKXxlbnwwfHwwfHx8MA%3D%3D",
+      "isPopular": false
+    },
+    {
+      "id": 164,
+      "name": "CHICKEN NORMAL WINGS (4 PCS)",
+      "categoryId": 7,
+      "price": 599.14,
+      "description": "4 pieces fried wings.",
+      "image": "https://media.istockphoto.com/id/2211203206/photo/roasted-chicken-wings-on-the-plate.webp?a=1&b=1&s=612x612&w=0&k=20&c=3gOaXIxVskikpyTHDw6KWaORKX67Hd1q86WuhIX6gXk=",
+      "isPopular": false
+    },
+    {
+      "id": 165,
+      "name": "CHICKEN NORMAL WINGS (6 PCS)",
+      "categoryId": 7,
+      "price": 694.79,
+      "description": "6 pieces fried wings.",
+      "image": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 167,
+      "name": "CHICKEN BROAST (2PCS)",
+      "categoryId": 7,
+      "price": 520.2,
+      "description": "2 pieces broasted fried chicken with fries.",
+      "image": "https://images.unsplash.com/photo-1647724394693-2c93af726785?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fENISUNLRU4lMjBCUk9BU1QlMjAoMlBDUyl8ZW58MHx8MHx8fDA%3D",
+      "isPopular": true
+    },
+    {
+      "id": 168,
+      "name": "CHICKEN BROAST (3 PCS)",
+      "categoryId": 7,
+      "price": 651.31,
+      "description": "3 pieces broasted fried chicken.",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 169,
+      "name": "NORMAL SHAWARMA",
+      "categoryId": 6,
+      "price": 477.4,
+      "description": "Regular beef or chicken shawarma wrap.",
+      "image": "https://images.unsplash.com/photo-1676300187013-7540d4e9440d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bm9ybWFsJTIwc2hhd2FybWF8ZW58MHx8MHx8fDA%3D",
+      "isPopular": true
+    },
+    {
+      "id": 170,
+      "name": "SPECIAL SHAWARMA",
+      "categoryId": 6,
+      "price": 694.79,
+      "description": "Loaded special shawarma wrap with cheese.",
+      "image": "https://images.unsplash.com/photo-1561651823-34feb02250e4?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 171,
+      "name": "CHICKEN PIZZA",
+      "categoryId": 2,
+      "price": 694.79,
+      "description": "Chicken pizza with garlic sauce.",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 172,
+      "name": "BBQ CHICKEN WING",
+      "categoryId": 7,
+      "price": 599.14,
+      "description": "Wings glazed in BBQ sauce.",
+      "image": "https://images.unsplash.com/photo-1734987942068-a1a459d65d3d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8QkJRJTIwQ0hJQ0tFTiUyMFdJTkd8ZW58MHx8MHx8fDA%3D",
+      "isPopular": false
+    },
+    {
+      "id": 173,
+      "name": "MARGARITA PIZZA",
+      "categoryId": 2,
+      "price": 433.92,
+      "description": "Classic cheese pizza.",
+      "image": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 174,
+      "name": "MEAT LOVER/BEEF PIZZA",
+      "categoryId": 2,
+      "price": 564.35,
+      "description": "/images/Beef ",
+      "image": "/images/beefpizza.jpg",
+      "isPopular": true
+    },
+    {
+      "id": 175,
+      "name": "PAZZALA PIZZA",
+      "categoryId": 2,
+      "price": 564.35,
+      "description": "Special house pizza.",
+      "image": "/images/pazzala piza.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 176,
+      "name": "CHICKEN PESTO PIZZA",
+      "categoryId": 2,
+      "price": 564.35,
+      "description": "Chicken pizza with green pesto sauce.",
+      "image": "/images/chickenpesto piza.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 177,
+      "name": "HAWAIIAN PIZZA",
+      "categoryId": 2,
+      "price": 564.35,
+      "description": "Pineapple and beef ham pizza.",
+      "image": "/images/HawallanPizza.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 178,
+      "name": "TUNA PIZZA",
+      "categoryId": 2,
+      "price": 625.22,
+      "description": "Tuna and onion pizza.",
+      "image": "/images/Tunapizza.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 179,
+      "name": "VEGETABLE PIZZA",
+      "categoryId": 2,
+      "price": 433.92,
+      "description": "Mixed vegetable pizza.",
+      "image": "/images/Vegetablepizza.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 180,
+      "name": "Read Bean Burger",
+      "categoryId": 12,
+      "price": 546.96,
+      "description": "Non-dairy fasting tuna pizza.",
+      "image": "https://media.istockphoto.com/id/1499582079/photo/crispy-chicken-burger-with-cheese-bacon-and-fried-egg-close-up.webp?a=1&b=1&s=612x612&w=0&k=20&c=TTTQLQxd5embk_qh1oRIc0t47jvCx5cZk7bczT4XPg4=",
+      "isPopular": false
+    },
+    {
+      "id": 181,
+      "name": "Vegan Burger",
+      "categoryId": 12,
+      "price": 607.83,
+      "image": "https://plus.unsplash.com/premium_photo-1668618295237-f1d8666812c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fFZlZ2FuJTIwQnVyZ2VyfGVufDB8fDB8fHww",
+      "isPopular": true
+    },
+    {
+      "id": 182,
+      "name": "EXTRA PIZZA TUNA/CHICKEN",
+      "categoryId": 13,
+      "price": 173.05,
+      "description": "Extra topping of tuna or chicken.",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 183,
+      "name": "PIZZA TAKEAWAY BOX",
+      "categoryId": 13,
+      "price": 42.61,
+      "description": "Takeaway packaging box for pizza.",
+      "image": "https://media.istockphoto.com/id/184868975/photo/used-pizza-box.webp?a=1&b=1&s=612x612&w=0&k=20&c=NVw3A3Xzodh3pw9MNz_eSavldJmNdHMHhWxE7nLt5CE=",
+      "isPopular": false
+    },
+    {
+      "id": 184,
+      "name": "EXTRA CHEESE FOR PIZZA",
+      "categoryId": 13,
+      "price": 173.05,
+      "description": "Extra mozzarella cheese topping.",
+      "image": "https://images.unsplash.com/photo-1683314573422-649a3c6ad784?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hlZXNlfGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 185,
+      "name": "WOW SPECIAL SMOOTHIE",
+      "categoryId": 3,
+      "price": 260,
+      "description": "Special blended fruit smoothie.",
+      "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 186,
+      "name": "MOCHA",
+      "categoryId": 9,
+      "price": 242.61,
+      "description": "Espresso with chocolate and steamed milk.",
+      "image": "/images/Mocha hot drink .jpg",
+      "isPopular": false
+    },
+    {
+      "id": 187,
+      "name": "MIXED",
+      "categoryId": 3,
+      "price": 242.61,
+      "description": "Mixed fruit juice combo.",
+      "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 188,
+      "name": "COFFEE BANANA",
+      "categoryId": 3,
+      "price": 242.61,
+      "description": "Coffee and banana blended frappe.",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 189,
+      "name": "SHAKES",
+      "categoryId": 3,
+      "price": 242.61,
+      "description": "Thick milkshake of choice.",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 190,
+      "name": "MILK SHAKE",
+      "categoryId": 3,
+      "price": 242.61,
+      "description": "Classic vanilla/chocolate milkshake.",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 191,
+      "name": "SEASONAL JUICES",
+      "categoryId": 3,
+      "price": 242.61,
+      "description": "Fresh seasonal fruit juice.",
+      "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 192,
+      "name": "JUICE TAKEAWAY CUP",
+      "categoryId": 13,
+      "price": 25.22,
+      "description": "Takeaway cup for beverages.",
+      "image": "https://images.unsplash.com/photo-1649715985964-e76fe751d8d6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGp1aWNlJTIwdGFrZSUyMGF3YXklMjBjdXB8ZW58MHx8MHx8fDA%3D",
+      "isPopular": false
+    },
+    {
+      "id": 193,
+      "name": "TEA",
+      "categoryId": 9,
+      "price": 60,
+      "description": "Hot Ethiopian tea.",
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80",
+      "isPopular": false
+    },
+    {
+      "id": 194,
+      "name": "COFFEE",
+      "categoryId": 9,
+      "price": 112.18,
+      "description": "Brewed Ethiopian highland coffee.",
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 195,
+      "name": "MACCHIATO",
+      "categoryId": 9,
+      "price": 112.18,
+      "description": "Classic Ethiopian macchiato.",
+      "image": "/images/Macchiato.jpg",
+      "isPopular": true
+    },
+    {
+      "id": 196,
+      "name": "CAFE LATE/MILK",
+      "categoryId": 9,
+      "price": 164.35,
+      "description": "Hot milk with coffee espresso.",
+      "image": "/images/Cafe late.jpg .jpg",
+      "isPopular": false
+    },
+    {
+      "id": 197,
+      "name": "FASTING MACCHIATO",
+      "categoryId": 9,
+      "price": 173.05,
+      "description": "Macchiato made with soy/almond milk.",
+      "image": "/images/FastingMacchiato.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 198,
+      "name": "CAPPUCCINO",
+      "categoryId": 9,
+      "price": 173.05,
+      "description": "Foamy cappuccino coffee.",
+      "image": "/images/Cappucciuno.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 199,
+      "name": "FLAVORED TEA",
+      "categoryId": 9,
+      "price": 112.18,
+      "description": "Hot tea with spice flavor.",
+      "image": "https://images.unsplash.com/photo-1602929707822-5d310b86b653?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTh8fEZMQVZPUkVEJTIwVEVBfGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 200,
+      "name": "SPECIAL TEA",
+      "categoryId": 9,
+      "price": 216.53,
+      "description": "Special herb infused hot tea.",
+      "image": "/images/Special tea.jpg",
+      "isPopular": false
+    },
+    {
+      "id": 201,
+      "name": "HOT DRINKS TAKEAWAY CUP",
+      "categoryId": 13,
+      "price": 25.22,
+      "description": "Takeaway cup for hot beverages.",
+      "image": "https://images.unsplash.com/photo-1639450258604-6c04ce877e41?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fEhvdCUyMGRyaW5rcyUyMHRha2UlMjBhd2F5JTIwY3VwfGVufDB8fDB8fHww",
+      "isPopular": false
+    },
+    {
+      "id": 202,
+      "name": "Soft Drink(300ml)",
+      "categoryId": 8,
+      "price": 68.7,
+      "description": "botteled coca cola sprite fanta (300ml)",
+      "ingredients": "Bottled carbonated beverage (Coca-Cola, Sprite, Fanta 300ml)",
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 203,
+      "name": "Soft drink(500ml)",
+      "categoryId": 8,
+      "price": 86.09,
+      "description": "botteled soft drink (500ml)",
+      "ingredients": "Bottled carbonated beverage (500ml)",
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 204,
+      "name": "Water (500ml)",
+      "categoryId": 8,
+      "price": 51.31,
+      "description": "bottled natural mineral water 500ml",
+      "ingredients": "Natural spring mineral water",
+      "image": "https://images.unsplash.com/photo-1560023907-5f339617ea30?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    },
+    {
+      "id": 205,
+      "name": "CHICKEN WITH CHEESE",
+      "categoryId": 4,
+      "price": 686.09,
+      "description": "Grilled chicken breast topped with melted cheddar cheese.",
+      "ingredients": "Grilled chicken breast, melted cheddar cheese slice, mayo",
+      "image": "https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?auto=format&fit=crop&w=600&q=80",
+      "isPopular": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "foodId": 202,
+      "author": "Yared K.",
+      "rating": 5,
+      "comment": "Super refreshing and cold!",
+      "date": "2026-08-26"
+    },
+    {
+      "id": 2,
+      "foodId": 101,
+      "author": "Bethlehem M.",
+      "rating": 5,
+      "comment": "Best pizza in Bole!",
+      "date": "2026-08-25"
+    }
+  ],
+  "branchFoodStatus": [
+    {
+      "branchId": 2,
+      "foodId": 103,
+      "active": true
+    },
+    {
+      "branchId": 2,
+      "foodId": 104,
+      "active": true
+    },
+    {
+      "branchId": 2,
+      "foodId": 102,
+      "active": true
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Super Admin",
+      "email": "superadmin@wowburger.com",
+      "password": "password123",
+      "role": "Superadmin",
+      "branchId": null
+    },
+    {
+      "id": 2,
+      "name": "Bole Branch Admin",
+      "email": "admin.bole@wowburger.com",
+      "password": "password123",
+      "role": "Admin",
+      "branchId": 1
+    },
+    {
+      "id": 3,
+      "name": "Kazanchis Branch Admin",
+      "email": "admin.kazanchis@wowburger.com",
+      "password": "password123",
+      "role": "Admin",
+      "branchId": 2
+    },
+    {
+      "id": 4,
+      "name": "Customer User",
+      "email": "client@wowburger.com",
+      "password": "password123",
+      "role": "Client",
+      "branchId": null
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "orderNumber": "WOW-0001",
+      "branchId": 1,
+      "customerName": "Walk-in Customer",
+      "customerPhone": "",
+      "tableNumber": "",
+      "items": [
+        {
+          "foodId": 138,
+          "name": "TAKEAWAY BOX",
+          "price": 25.22,
+          "quantity": 5,
+          "lineTotal": 126.1
+        }
+      ],
+      "subtotal": 126.1,
+      "tax": 19,
+      "total": 145.1,
+      "status": "New",
+      "note": "",
+      "createdAt": "2026-09-12T06:25:14.982Z"
+    },
+    {
+      "id": 2,
+      "orderNumber": "WOW-0002",
+      "branchId": 1,
+      "customerName": "Walk-in Customer",
+      "customerPhone": "",
+      "tableNumber": "",
+      "items": [
+        {
+          "foodId": 141,
+          "name": "CHICKEN WRAP MEDIUM",
+          "price": 651.31,
+          "quantity": 1,
+          "lineTotal": 651.31
+        }
+      ],
+      "subtotal": 651.31,
+      "tax": 98,
+      "total": 749.31,
+      "status": "New",
+      "note": "",
+      "createdAt": "2026-09-13T06:42:47.811Z"
+    }
+  ]
+}
