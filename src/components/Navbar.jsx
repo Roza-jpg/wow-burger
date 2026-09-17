@@ -60,32 +60,32 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 shadow-md font-['Plus_Jakarta_Sans',sans-serif]">
       {/* 1. RED TOP HEADER BAR matching exact website inspect HTML */}
-      <div className="bg-[#d32f2f] text-white px-4 sm:px-8 py-2.5 flex items-center justify-between">
+      <div className="bg-[#d32f2f] text-white px-2 sm:px-8 py-2.5 flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-0">
         
         {/* Left: Official WOW Burger Logo Image & Title using exact HTML inspect code */}
-        <Link to={`/branch/${selectedBranchId}`} className="flex items-center gap-3 group">
+        <Link to={`/branch/${selectedBranchId}`} className="flex items-center gap-1 sm:gap-3 group shrink-0">
           <img 
             src="/images/Wow burger logo.png" 
             alt="logo" 
             width="100" 
             height="100" 
             onError={handleLogoError}
-            className="rounded-lg "
+            className="rounded-lg w-16 h-16 sm:w-[100px] sm:h-[100px]"
           />
 
           
-          <span className="font-black text-xl sm:text-2xl tracking-tight text-white uppercase">
+          <span className="hidden sm:inline font-black text-xl sm:text-2xl tracking-tight text-white uppercase">
             WOW BURGER
           </span>
         </Link>
 
         {/* Right: Header Navigation Links (Home, About, Login, Branch Selector, Cart) */}
-        <div className="flex items-center gap-4 sm:gap-6 font-bold text-xs sm:text-sm">
+        <div className="flex items-center gap-2 sm:gap-6 font-bold text-xs sm:text-sm">
           
           {/* Home Link */}
           <Link
             to={`/branch/${selectedBranchId}`}
-            className={`transition py-1 ${
+            className={`transition py-1 text-[11px] sm:text-sm ${
               isHomePage
                 ? 'text-white border-b-2 border-white font-extrabold'
                 : 'text-red-100 hover:text-white'
@@ -113,7 +113,7 @@ export default function Navbar() {
           ) : (
             <Link
               to="/login"
-              className="text-red-100 hover:text-white font-extrabold"
+              className="text-red-100 hover:text-white font-extrabold text-[11px] sm:text-sm"
             >
               Login
             </Link>
@@ -125,7 +125,7 @@ export default function Navbar() {
             <select
               value={selectedBranchId}
               onChange={handleBranchChange}
-              className="bg-transparent text-xs font-bold text-white focus:outline-none cursor-pointer"
+              className="bg-transparent text-[10px] sm:text-xs font-bold text-white focus:outline-none cursor-pointer w-[70px] sm:w-auto"
             >
               {branches.map((b) => (
                 <option key={b.id} value={b.id} className="bg-stone-900 text-stone-100">
@@ -157,7 +157,7 @@ export default function Navbar() {
           {/* Shopping Cart Button */}
           <button
             onClick={() => setIsCartOpen(true)}
-            className="relative bg-amber-400 hover:bg-amber-300 text-stone-950 px-2.5 py-1 rounded-lg font-extrabold text-xs flex items-center gap-1.5 shadow"
+            className="relative bg-amber-400 hover:bg-amber-300 text-stone-950 px-2 py-1 rounded-lg font-extrabold text-[10px] sm:text-xs flex items-center gap-1 sm:gap-1.5 shadow"
           >
             <ShoppingBag className="w-4 h-4" />
             <span className="hidden sm:inline">Cart</span>
